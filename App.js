@@ -10,4 +10,4 @@ app.get('/login', (req, res) => {
     res.send ('Task manager app')
 })
 app.use("/api/v1/tasks", tasks)
- module.exports = App
+ module.exports = App;

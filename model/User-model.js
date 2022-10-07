@@ -26,5 +26,5 @@ const firstSchema = new mongoose.Schema ({
       },
    
 })
-module.exports = mongoose.model("First", firstSchema);
-module.exports = First;
+module.exports = mongoose.model("User", userSchema);
+module.exports = User;

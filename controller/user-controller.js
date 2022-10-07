@@ -1,4 +1,4 @@
-const User = require("../capsulator/First");
+const User = require("../model/User-model");
 const bcrypt = require("bcryptjs");
 
 //User signup handler
@@ -156,23 +156,3 @@ exports.getOne = async (req, res) => {
 
 
 
-
-// const getAllTasks = (req,res) =>{
-//     res.send ('all item')
-// }
-// const createTask = (req,res) => {
-//     res.send("create task");
-// }
-
-//     const getTask = (req,res) => {
-//         res.send("get task");
-//     }
-//        const updateTask = (req,res) => {
-//             res.send("update task");
-//        }
-//     const deleteTask = (req,res) => {
-//         res.send("deletetask");
-// }
-// Module.exports = {
-//     getAllTasks,createTask, getTask, updateTask, deleteTask
-// }
